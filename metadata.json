@@ -1,0 +1,6 @@
+{
+  "name": "Creator AI",
+  "description": "Daily YouTube trending topics, video ideas, complete Hinglish scripts, SEO titles, descriptions, hashtags, and thumbnail concepts for content creators.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
