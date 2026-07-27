@@ -9,7 +9,7 @@ import {
   getFallbackCustomIdea,
   getFallbackTrendingTopics,
   getFallbackThumbnailSVG,
-} from './server/fallbacks.js';
+}from './fallbacks'
 
 dotenv.config();
 
