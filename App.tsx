@@ -6,10 +6,10 @@ import { BottomNav, TabType } from './BottomNav';
 import { TodayDrop } from './TodayDrop';
 import { YouTubeDashboard } from './YouTubeDashboard';
 import { ScriptTeleprompterModal } from './ScriptTeleprompterModal';
-import { TrendFinder } from './components/TrendFinder';
-import { HistoryVault } from './components/HistoryVault';
-import { StudioTools } from './components/StudioTools';
-import { NotificationSettingsModal } from './components/NotificationSettingsModal';
+import { TrendFinder } from './TrendFinder';
+import { HistoryVault } from './HistoryVault';
+import { StudioTools } from './StudioTools';
+import { NotificationSettingsModal } from './NotificationSettingsModal';
 import { Bell, X } from 'lucide-react';
 
 export default function App() {
