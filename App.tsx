@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { VideoIdeaPackage, TrendingTopicItem, DailyNotificationConfig, YouTubeChannelStats } from './types';
 import { INITIAL_IDEAS, INITIAL_TRENDING_TOPICS, DEFAULT_YOUTUBE_STATS } from './presetIdeas'
-import { AndroidHeader } from './components/AndroidHeader';
-import { BottomNav, TabType } from './components/BottomNav';
-import { TodayDrop } from './components/TodayDrop';
-import { YouTubeDashboard } from './components/YouTubeDashboard';
-import { ScriptTeleprompterModal } from './components/ScriptTeleprompterModal';
+import { AndroidHeader } from './AndroidHeader';
+import { BottomNav, TabType } from './BottomNav';
+import { TodayDrop } from './TodayDrop';
+import { YouTubeDashboard } from './YouTubeDashboard';
+import { ScriptTeleprompterModal } from './ScriptTeleprompterModal';
 import { TrendFinder } from './components/TrendFinder';
 import { HistoryVault } from './components/HistoryVault';
 import { StudioTools } from './components/StudioTools';
