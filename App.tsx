@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { VideoIdeaPackage, TrendingTopicItem, DailyNotificationConfig, YouTubeChannelStats } from './types';
-import { INITIAL_IDEAS, INITIAL_TRENDING_TOPICS, DEFAULT_YOUTUBE_STATS } from './data/presetIdeas';
+import { INITIAL_IDEAS, INITIAL_TRENDING_TOPICS, DEFAULT_YOUTUBE_STATS } from './presetIdeas';
 import { AndroidHeader } from './components/AndroidHeader';
 import { BottomNav, TabType } from './components/BottomNav';
 import { TodayDrop } from './components/TodayDrop';
