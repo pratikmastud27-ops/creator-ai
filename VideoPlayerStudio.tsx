@@ -16,6 +16,7 @@ import {
   Activity,
   Mic,
 } from 'lucide-react';
+import AutoThumbnailGenerator from "./AutoThumbnailGenerator";
 
 interface VideoPlayerStudioProps {
   production?: VideoProduction;
