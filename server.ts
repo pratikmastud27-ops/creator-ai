@@ -8,7 +8,7 @@ import {
   getFallbackCustomIdea,
   getFallbackTrendingTopics,
   getFallbackThumbnailSVG,
-}from './fallbacks'
+} from './fallbacks.js'
 
 dotenv.config();
 
