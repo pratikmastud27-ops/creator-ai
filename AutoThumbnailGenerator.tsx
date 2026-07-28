@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 
 interface AutoThumbnailGeneratorProps {
   title: string;
@@ -10,7 +10,8 @@ const AutoThumbnailGenerator: React.FC<AutoThumbnailGeneratorProps> = ({
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [thumbnail, setThumbnail] = useState("");
 
-  const generateThumbnail = () => {
+  const generateThumbnail = () => { 
+    
     const canvas = canvasRef.current;
     if (!canvas) return;
 
