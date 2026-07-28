@@ -355,7 +355,11 @@ export const VideoPlayerStudio: React.FC<VideoPlayerStudioProps> = ({
             </>
           )}
         </button>
-      </div>
+        <div className="mt-6">
+  <AutoThumbnailGenerator 
+    title={title} />      
+    </div>
+        
     </div>
   );
 };
